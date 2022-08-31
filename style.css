@@ -1,0 +1,108 @@
+/* * {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Ubuntu, sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.form-wrapper {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 448px;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  padding: 40px;
+}
+.inline {
+  display: block;
+}
+#contact input,
+textarea,
+select {
+  appearance: none;
+  min-height: 44px;
+  text-indent: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+label {
+  margin: 10px 0;
+  font-weight: 500;
+}
+button {
+  background-color: #5d65cf;
+  min-height: 44px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: 2px solid #5d65cf;
+  border: unset;
+}
+
+textarea:focus {
+  outline: 2px solid #5d65cf;
+  border: unset;
+} */
+
+form {
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  max-width: 480px;
+  margin: 100px auto;
+  padding: 40px;
+}
+
+h1 {
+  color: rgb(47, 62, 89);
+}
+
+.submit-btn {
+  width: 100%;
+  height: 50px;
+  background: rgb(47, 62, 89);
+}
+
+.submit-btn:hover,
+.submit-btn:focus-within {
+  background: #229a8e;
+}
+.submit-btn.disabled-custom:hover {
+  transform: unset;
+}
+.disabled-custom {
+  cursor: help !important;
+  background: grey;
+}
+.acceptance-error {
+  color: red;
+}
+.hide {
+  display: none;
+}
+
+.modal-dialog {
+  max-width: none;
+}
+
+.table-bg {
+  background: #a3b5d9 !important;
+}
+
+.errorVoucher {
+  color: red;
+}
